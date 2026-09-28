@@ -1,0 +1,43 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets, checkpoints, and model weights
+/data
+/pretrained_models
+/checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Training and evaluation artifacts
+work_dirs/
+outputs/
+results/
+/eval_results/
+*.log
+*.xlsx
+*.npy
+*.npz
+
+# Local archives and backups
+*.zip
+*.tar
+*.tar.gz
+*backup*/

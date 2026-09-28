@@ -1,0 +1,12 @@
+name: srrnet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - cudatoolkit=11.3
+  - pip:
+      - -r requirements.txt
